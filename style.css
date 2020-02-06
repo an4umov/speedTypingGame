@@ -6,7 +6,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 60vh;
+    min-height: 90vh;
     margin: 0;
     background-color: #1e0555;
 }
@@ -19,14 +19,14 @@ body, .quote-input {
     background-color: #f0db4f;
     padding: 20px;
     border-radius: 10px;
-    width: 400px;
-    max-width: 80%;
+    width: 500px;
+    max-width: 90%;
 }
 
 .timer {
     position: absolute;
     top: 42px;
-    font-size: 60px;
+    font-size: 85px;
     color: #f0db4f;
     font-weight: bold;
 }
@@ -53,4 +53,13 @@ body, .quote-input {
 
 .quote-input:focus {
     border-color: #000;
+}
+
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
+    text-decoration: underline;
 }
